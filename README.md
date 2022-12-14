@@ -59,7 +59,9 @@ ii. Pass browser name as argument in command line
 Run Pytest
  
  pytest -v -s testCases/test_login.py
+ 
  pytest -v -s testCases/test_login.py --browser chrome
+ 
  pytest -v -s --html=Reports\report.html testCases/test_login.py --browser chrome
  
 
